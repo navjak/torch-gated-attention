@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-import torch.nn.Functional as F
+import torch.nn.functional as F
 from typing import Optional
 
 def gated_sdpa(q: torch.Tensor, 
